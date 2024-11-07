@@ -12,5 +12,5 @@
 
 <% end %>
 
-<a href="">Show</a>
-<a href="">Back</a>
+<%= link_to "Show",new_book_path(@book.id) %>
+<%= link_to "Back", :back %>
